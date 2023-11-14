@@ -1,0 +1,60 @@
+/* Apply styles to the entire body of the page */
+body {
+    background-color: #f0f0f000; /* Gray background */
+    text-align: center; /* Center-align text */
+    font-family: Arial, sans-serif; /* Specify the font */
+}
+
+/* Style the main heading (h1) */
+h1 {
+    color: black; /* Black text color */
+    text-align: center;
+}
+
+/* Style the form container */
+form {
+    background-color: #000; /* Black background for the form */
+    padding: 20px; /* Add some padding to the form */
+    border-radius: 10px; /* Round the corners */
+}
+
+/* Style the labels and input fields */
+label {
+    color: white; /* White text color for labels */
+}
+
+input {
+    background-color: #fff; /* White background for input fields */
+    color: black; /* Black text color for input fields */
+    padding: 10px; /* Add some padding to input fields */
+    border: none; /* Remove borders from input fields */
+    border-radius: 5px; /* Round the corners of input fields */
+    margin: 5px; /* Add some margin around input fields */
+}
+
+/* Style the user questions */
+.user-question {
+    margin: 10px 0; /* Add margin to separate user questions */
+}
+
+/* Style the bot answers */
+.bot-answer {
+    font-weight: bold; /* Make bot answers bold */
+    margin: 10px 0; /* Add margin to separate bot answers */
+}
+
+
+#chat-history {
+    background-color: #f0f0f0; /* Set the background color */
+    padding: 10px; /* Add some padding for better spacing */
+}
+
+#chat-history p {
+    color: gray; /* Set the text color to gray */
+    margin: 5px 0; /* Add margin to separate each entry */
+}
+
+/* Style for the "User" and "Chatbot Answer" labels */
+#chat-history strong {
+    color: black; /* Set the label text color to black */
+}
